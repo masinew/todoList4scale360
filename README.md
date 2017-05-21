@@ -1,16 +1,16 @@
 # Operating System
 •	Windows<br/>
-•	Unix base
+•	Unix base<br/>
 
 # Software
-•	Git (https://git-scm.com)
-•	Nodejs & NPM (https://nodejs.org)
-•	MongoDB (https://www.mongodb.com)
+•	Git (https://git-scm.com)<br/>
+•	Nodejs & NPM (https://nodejs.org)<br/>
+•	MongoDB (https://www.mongodb.com)<br/>
 
 # Quick Start
-•	Open “terminal” or “command prompt”
-•	Go to your workspace (eg. ~/workspace/)
-•	git clone https://github.com/masinew/todoList4scale360.git
-•	cd todoList4scale360
-•	npm install && npm start
-•	Have fun
+•	Open “terminal” or “command prompt”<br/>
+•	Go to your workspace (eg. ~/workspace/)<br/>
+•	git clone https://github.com/masinew/todoList4scale360.git<br/>
+•	cd todoList4scale360<br/>
+•	npm install && npm start<br/>
+•	Have fun<br/>
