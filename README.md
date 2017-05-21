@@ -1,5 +1,5 @@
 # Operating System
-•	Windows
+•	Windows<br/>
 •	Unix base
 
 # Software
