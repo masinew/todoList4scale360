@@ -1,0 +1,23 @@
+{
+  "name": "todoList4scale360",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/nodemon src/server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.0",
+    "mongoose-auto-increment": "^5.0.1",
+    "multer": "^1.3.0",
+    "nodemon": "^1.11.0"
+  }
+}
