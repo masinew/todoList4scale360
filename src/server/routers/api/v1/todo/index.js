@@ -76,7 +76,7 @@ router.post('/', (req, res) => {
             return;
         }
 
-        const nextRef = result === null ? 1 : result.ref+1;
+        let nextRef = result === null ? 1 : result.ref+1;
         const todo = new Todo({
             ref: nextRef,
             todo: todoVal,
@@ -89,7 +89,9 @@ router.post('/', (req, res) => {
                 return;
             }
 
-            res.json(success);
+            res.json(Object.assign({}, success, {
+                ref: nextRef
+            }));
         });
     });
 });
